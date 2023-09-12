@@ -1,0 +1,8 @@
+body{
+    font-family: Arial;
+}
+.container{
+    background-color: rgba(190, 190, 190, 0.884);
+    border-radius: 1em;
+    padding: 1em;
+}
