@@ -1,8 +1,41 @@
 body{
-    font-family: Arial;
+    background-image: url(background.jpg);
+    text-align: center;
+    
 }
 .container{
+    width: fit-content;
     background-color: rgba(190, 190, 190, 0.884);
     border-radius: 1em;
+    padding: 1em;
+    margin: auto;
+    box-shadow: 7px 7px 10px rgb(0, 0, 0, 0.25);
+    border:0.2em solid rgba(0, 0, 0, 0.911);
+    backdrop-filter: blur(2px);
+}
+
+input{
+    border-radius: 1em;
+    background-color: white;
+}
+
+.floatingmsg{
+    width: fit-content;
+    padding: 4px;
+    background-color: white;
+    border-radius: 1em;
+    border:0.2em solid rgba(0, 0, 0, 0.911);
+}
+
+label{
+    font-size: 0.95em;
+    font-weight: bold;
+}
+
+.button{
+    background-color: rgb(121, 121, 255);
+    border-radius: 1em;
+    border:0.2em solid rgba(0, 0, 0, 0.911);
+    box-shadow: 7px 7px 7px rgb(0, 0, 0, 0.25);
     padding: 1em;
 }
